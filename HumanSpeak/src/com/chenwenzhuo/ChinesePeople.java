@@ -1,7 +1,8 @@
 package com.chenwenzhuo;
 
 class ChinesePeople extends Human {
-    public ChinesePeople(){
+    protected void speak(){
+        super.speak();
         System.out.println("中国人说中文");
     }
 }
