@@ -9,6 +9,7 @@ public class Main {
 
         //让用户确认是否需要租车
         System.out.println("Are you willing to rent cars?");
+        System.out.println("Enter 1 for yes or 0 for no.");
         int quitOrNot;
         quitOrNot = input.nextInt();
         if (0 == quitOrNot) {
@@ -57,13 +58,11 @@ public class Main {
         for (int i = 0; i < howManyToRent; i++) {
             System.out.print("Enter the number of the " + (i + 1) + " car you want:");
 
-            int number;
-            while (true) {
+            int number = input.nextInt();
+            while (number < 1 || number > automobilesForRentings.length) {
+                System.out.print("Wrong number!Please enter a number between 1 and "
+                        + automobilesForRentings.length + ":");
                 number = input.nextInt();
-                if (number < 1 || number > automobilesForRentings.length) {
-                    System.out.println("Wrong number!Please enter a number between 1 and "
-                            + automobilesForRentings.length);
-                } else break;
             }
 
             totalPrice += automobilesForRentings[number - 1].getPrice();
