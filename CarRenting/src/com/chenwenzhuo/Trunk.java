@@ -1,9 +1,9 @@
 package com.chenwenzhuo;
 
-class TrunkForRenting extends CarsForRenting {
+class Trunk extends AutomobilesForRenting {
     protected int goodsCapacity;
 
-    public TrunkForRenting(String name, int price, int goodsCapacity) {
+    public Trunk(String name, int price, int goodsCapacity) {
         super(name, price);
         this.goodsCapacity = goodsCapacity;
     }

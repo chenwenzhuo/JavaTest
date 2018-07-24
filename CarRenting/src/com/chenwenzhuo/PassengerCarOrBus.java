@@ -1,9 +1,9 @@
 package com.chenwenzhuo;
 
-class BusForRenting extends CarsForRenting {
+class PassengerCarOrBus extends AutomobilesForRenting {
     protected int guestCapacity;
 
-    public BusForRenting(String name, int price, int guestCapacity) {
+    public PassengerCarOrBus(String name, int price, int guestCapacity) {
         super(name, price);
         this.guestCapacity = guestCapacity;
     }

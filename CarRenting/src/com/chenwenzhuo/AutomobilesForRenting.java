@@ -1,10 +1,10 @@
 package com.chenwenzhuo;
 
-class CarsForRenting {
+class AutomobilesForRenting {
     protected String name;
     protected int price;
 
-    public CarsForRenting(String name, int price) {
+    public AutomobilesForRenting(String name, int price) {
         this.name = name;
         this.price = price;
     }
