@@ -1,5 +1,9 @@
 package com.heythere;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 class AttackDotComGame {
     DotCom[] dotComs = new DotCom[3];
 
@@ -45,6 +49,19 @@ class AttackDotComGame {
     }
 
     public void startGame() {
+        int sunkDotComs=0;//已被击沉的DotCom数量
 
+        String guessInput = "";
+        InputStreamReader in = new InputStreamReader(System.in);
+        BufferedReader reader = new BufferedReader(in);
+        while (sunkDotComs < dotComs.length) {
+            System.out.println("Enter a guess:");
+            try {
+                guessInput=reader.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.out.println("IOException occurred!");
+            }
+        }
     }
 }
