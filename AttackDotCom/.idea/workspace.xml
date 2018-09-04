@@ -4,6 +4,9 @@
     <list default="true" id="40c85361-6d2d-482e-830c-b64a4074260c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/DotCom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/DotCom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/GameLauncher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +19,23 @@
     <session id="676431857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="1755" />
+          <entry key="java" value="2302" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1755" />
+          <entry key="JAVA" value="2302" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -55,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/GameLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="138">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -64,32 +68,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/Coordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/heythere/DotCom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="414">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding>
-                <element signature="method#isCoordinateLegal#0;class#DotCom#0" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/DotCom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+              <folding>
+                <element signature="method#isCoordinateLegal#0;class#DotCom#0" />
+                <element signature="e#5020#5021#0" expanded="true" />
+                <element signature="e#5057#5058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+            <state relative-caret-position="782">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#AttackDotComGame#0;class#AttackDotComGame#0" />
               </folding>
             </state>
           </provider>
@@ -110,9 +119,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/heythere/GameLauncher.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/DotCom.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/GameLauncher.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java" />
       </list>
     </option>
@@ -137,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,8 +170,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -170,7 +179,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536033703808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536041727127" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -196,6 +205,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -209,18 +223,49 @@
       <updated>1535977465757</updated>
       <workItem from="1535977467344" duration="1412000" />
       <workItem from="1535979242465" duration="6538000" />
-      <workItem from="1536031660382" duration="1742000" />
+      <workItem from="1536031660382" duration="2119000" />
+      <workItem from="1536037481565" duration="4241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9692000" />
+    <option name="totallyTimeSpent" value="14310000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13900709" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +292,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -256,37 +301,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/GameLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heythere/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="414">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/GameLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="62" column="60" lean-forward="true" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#AttackDotComGame#0;class#AttackDotComGame#0" />
-          </folding>
+        <state relative-caret-position="138">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heythere/DotCom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="206">
+          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
           <folding>
             <element signature="method#isCoordinateLegal#0;class#DotCom#0" />
+            <element signature="e#5020#5021#0" expanded="true" />
+            <element signature="e#5057#5058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/AttackDotComGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

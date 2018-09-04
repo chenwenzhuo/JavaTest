@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 class AttackDotComGame {
-    DotCom[] dotComs = new DotCom[3];
+    private DotCom[] dotComs = new DotCom[3];
 
     public AttackDotComGame() {
         Coordinate[] coordinates = new Coordinate[3];//用于初始化DotCom的Coordinate
@@ -49,19 +49,39 @@ class AttackDotComGame {
     }
 
     public void startGame() {
-        int sunkDotComs=0;//已被击沉的DotCom数量
+        int sunkDotComCount = 0;//已被击沉的DotCom数量
 
         String guessInput = "";
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(in);
-        while (sunkDotComs < dotComs.length) {
+        while (sunkDotComCount < dotComs.length) {
             System.out.println("Enter a guess:");
             try {
-                guessInput=reader.readLine();
+                guessInput = reader.readLine();
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println("IOException occurred!");
             }
+
+            if (dotComs[0].isDotComHit(guessInput)
+                    || dotComs[1].isDotComHit(guessInput)
+                    || dotComs[2].isDotComHit(guessInput)) {
+                if (dotComs[0].isDotComHit(guessInput) && (3 == dotComs[0].getDotComHitCount())) {
+                    System.out.println("Ouch!You sunk " + dotComs[0].getDotComName());
+                    sunkDotComCount++;
+                } else if (dotComs[1].isDotComHit(guessInput) && (3 == dotComs[1].getDotComHitCount())) {
+                    System.out.println("Ouch!You sunk " + dotComs[1].getDotComName());
+                    sunkDotComCount++;
+                } else if (dotComs[2].isDotComHit(guessInput) && (3 == dotComs[2].getDotComHitCount())) {
+                    System.out.println("Ouch!You sunk " + dotComs[2].getDotComName());
+                    sunkDotComCount++;
+                } else {
+                    System.out.println("Hit");
+                }
+            } else {
+                System.out.println("Miss");
+            }
         }
+        System.out.println("You have sunk all DotComs!Game is over");
     }
 }

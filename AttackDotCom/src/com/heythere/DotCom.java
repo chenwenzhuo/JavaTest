@@ -6,6 +6,7 @@ class DotCom {
     private Coordinate[] coordinates = new Coordinate[3];//DotCom所占的三个方格坐标
     private boolean[] isCoordinateHit = new boolean[3];//标志三个方格是否被击中
     private String dotComName;
+    private int dotComHitCount;//DotCom被击中的次数
     private boolean isAllInitialized = false;//标志DotCom的三个坐标是否都被初始化
 
     public DotCom(Coordinate co_1, Coordinate co_2, Coordinate co_3, String dotComName) {
@@ -18,7 +19,8 @@ class DotCom {
         this.coordinates[1] = co_2;
         this.coordinates[2] = co_3;
         this.dotComName = dotComName;
-        this.isAllInitialized = true;
+        isAllInitialized = true;
+        dotComHitCount = 0;
 
         for (int i = 0; i < 3; i++) {
             isCoordinateHit[i] = false;
@@ -88,10 +90,20 @@ class DotCom {
                 || allHorizontalCoordinates.contains(h_sorted_Co_6) || allVerticalCoordinates.contains(v_sortedCo_6);
     }
 
-    public boolean isDotComHit(String guess){
-
+    public boolean isDotComHit(String guess) {
+        if (isCoordinateHit[0] && isCoordinateHit[1] && isCoordinateHit[2]) {
+            return false;
+        }
+        for (int i = 0; i < 3; i++) {
+            if (guess.equals(coordinates[i].toString()) && !isCoordinateHit[i]) {
+                isCoordinateHit[i] = true;
+                dotComHitCount++;
+                return true;
+            }
+        }
         return false;
     }
+
     public String getDotComName() {
         return this.dotComName;
     }
@@ -110,5 +122,9 @@ class DotCom {
 
     public Coordinate[] getCoordinates() {
         return coordinates;
+    }
+
+    public int getDotComHitCount() {
+        return dotComHitCount;
     }
 }

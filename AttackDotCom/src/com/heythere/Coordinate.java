@@ -17,4 +17,9 @@ class Coordinate {
         this.horizontalCoordinate = h;
         this.verticalCoordinate = v;
     }
+
+    @Override
+    public String toString() {
+        return "" + horizontalCoordinate + verticalCoordinate;
+    }
 }
