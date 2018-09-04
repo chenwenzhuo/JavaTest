@@ -13,7 +13,7 @@ class Coordinate {
         return horizontalCoordinate;
     }
 
-    public void setCoordinates(char h, char v) {
+    public void setCoordinates(char v, char h) {
         this.horizontalCoordinate = h;
         this.verticalCoordinate = v;
     }
