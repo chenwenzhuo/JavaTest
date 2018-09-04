@@ -127,4 +127,11 @@ class DotCom {
     public int getDotComHitCount() {
         return dotComHitCount;
     }
+
+    public String toString() {
+        return coordinates[0].toString() +
+                coordinates[1].toString() +
+                coordinates[2].toString() +
+                "   " + dotComName;
+    }
 }

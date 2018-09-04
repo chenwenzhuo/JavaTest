@@ -14,12 +14,12 @@ class Coordinate {
     }
 
     public void setCoordinates(char v, char h) {
-        this.horizontalCoordinate = h;
         this.verticalCoordinate = v;
+        this.horizontalCoordinate = h;
     }
 
     @Override
     public String toString() {
-        return "" + horizontalCoordinate + verticalCoordinate;
+        return "" + verticalCoordinate + horizontalCoordinate;
     }
 }
