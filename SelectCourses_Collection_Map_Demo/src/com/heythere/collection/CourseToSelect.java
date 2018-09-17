@@ -119,4 +119,8 @@ public class CourseToSelect {
         System.out.println("已删除" + coursesToRemove.length + "门课程！");
         seeAllCourses();
     }
+
+    public List<Course> getCourses() {
+        return courses;
+    }
 }
