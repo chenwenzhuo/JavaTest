@@ -9,15 +9,15 @@ import java.util.Set;
 
 public class AllStudents {
     private Map<String, Student> studentsMap;
+    //使用Scanner从控制台读入数据
+    private Scanner consoleInput;
 
     public AllStudents() {
-        studentsMap = new HashMap<>();
+        this.studentsMap = new HashMap<>();
+        this.consoleInput = new Scanner(System.in);
     }
 
     public void addStudents() {
-        //使用Scanner从控制台读入数据
-        Scanner consoleInput = new Scanner(System.in);
-
         System.out.print("共有几个学生要添加：");
         int stuAmount = consoleInput.nextInt();
 
@@ -59,9 +59,6 @@ public class AllStudents {
     }
 
     public void removeStudent() {
-        //Scanner用于输入要删除的学生id
-        Scanner consoleInput = new Scanner(System.in);
-
         String stuIDToRemove;
         Student stuToRemove;
         System.out.print("输入要删除的学生ID：");
@@ -81,9 +78,6 @@ public class AllStudents {
     }
 
     public void modifyStudent() {
-        //Scanner用于输入要修改的学生id
-        Scanner consoleInput = new Scanner(System.in);
-
         String stuIDToModify;
         Student stuToModify;
         System.out.print("输入要修改的学生ID：");
@@ -103,5 +97,14 @@ public class AllStudents {
             studentsMap.put(stuIDToModify, new Student(stuIDToModify, newStuName));
             break;
         }
+    }
+
+    public boolean checkExistByKey(String key) {
+        return studentsMap.containsKey(key);
+    }
+
+    public boolean checkExistByName(String name) {
+        Student stuToCheck = new Student(null, name);
+        return studentsMap.containsValue(stuToCheck);
     }
 }

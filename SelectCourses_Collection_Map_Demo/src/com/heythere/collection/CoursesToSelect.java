@@ -1,16 +1,16 @@
 package com.heythere.collection;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
-public class CourseToSelect {
+public class CoursesToSelect {
     //用于存放备选课程的List
     private List<Course> courses;
+    //Scanner用于从控制台读入数据
+    private Scanner consoleInput;
 
-    public CourseToSelect() {
+    public CoursesToSelect() {
         this.courses = new ArrayList<>();
+        this.consoleInput = new Scanner(System.in);
     }
 
     public void addCourse() {
@@ -120,6 +120,27 @@ public class CourseToSelect {
         seeAllCourses();
     }
 
+    public boolean containsCourse(Course courseToJudge) {
+        return courses.contains(courseToJudge);
+    }
+
+    public void containsCourse() {
+        System.out.println("输入课程名称：");
+        String courseNameFromInput = consoleInput.next();
+
+        Course newCourse = new Course();
+        newCourse.setCourseName(courseNameFromInput);
+
+        System.out.println("备选课程中是否包含课程：" + courseNameFromInput + "，" +
+                courses.contains(newCourse));
+    }
+
+    public int indexOfCourse(Course c) {
+        if (courses.contains(c)) {
+            return courses.indexOf(c);
+        }
+        return -1;
+    }
     public List<Course> getCourses() {
         return courses;
     }
