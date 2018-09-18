@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ee3b6fd-2b78-4bbb-ad4a-d223382429ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AttackDotCom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AttackDotCom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/collection/CourseToSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/collection/CourseToSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/collection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/collection/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/heythere/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +20,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3191" />
+          <entry key="java" value="3859" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3191" />
+          <entry key="JAVA" value="3859" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -57,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="655">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
-              <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+              <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addCourse#0;class#CourseToSelect#0" />
@@ -99,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="104">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,12 +109,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/map/AllStudents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="586">
+              <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/heythere/collection/Course.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/collection/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/heythere/Main.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/Main.java" />
       </list>
     </option>
   </component>
@@ -156,7 +149,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1187" />
+    <option name="width" value="1196" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -192,19 +185,26 @@
               <item name="heythere" type="462c0819:PsiDirectoryNode" />
               <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SelectCourses_Collection_Map_Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelectCourses_Collection_Map_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="heythere" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537199313219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537241214889" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -247,17 +247,18 @@
       <updated>1537088282891</updated>
       <workItem from="1537088286517" duration="8133000" />
       <workItem from="1537191578265" duration="6628000" />
+      <workItem from="1537238375255" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14761000" />
+    <option name="totallyTimeSpent" value="17241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1187" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1196" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1854481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -269,7 +270,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.22478071" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.5855263" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -304,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
-          <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addCourse#0;class#CourseToSelect#0" />
@@ -320,32 +321,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/map/AllStudents.java">
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="104">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/map/AllStudents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="655">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

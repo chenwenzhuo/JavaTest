@@ -31,13 +31,13 @@ public class AllStudents {
                 String nameInput = consoleInput.next();
                 studentsMap.put(idInput, new Student(idInput, nameInput));
                 i++;
-            }else {
+            } else {
                 System.out.println("此学生已被添加！");
             }
         }
     }
 
-    public void seeAllStudents(){
+    public void seeAllStudents() {
         //获得已经被添加的学生的id集合
         Set<String> stuIDSet = studentsMap.keySet();
 
@@ -45,6 +45,63 @@ public class AllStudents {
         for (String id : stuIDSet) {
             Student stu = studentsMap.get(id);
             System.out.println(stu.getStuId() + "：" + stu.getStuName());
+        }
+    }
+
+    public void seeAllStuByEntry() {
+        //获得Entry集合
+        Set<Map.Entry<String, Student>> entries = studentsMap.entrySet();
+
+        for (Map.Entry<String, Student> e : entries) {
+            System.out.println("键为：" + e.getKey());
+            System.out.println("对应的值为：" + e.getValue().getStuName());
+        }
+    }
+
+    public void removeStudent() {
+        //Scanner用于输入要删除的学生id
+        Scanner consoleInput = new Scanner(System.in);
+
+        String stuIDToRemove;
+        Student stuToRemove;
+        System.out.print("输入要删除的学生ID：");
+        while (true) {
+            stuIDToRemove = consoleInput.next();
+            stuToRemove = studentsMap.get(stuIDToRemove);
+
+            //处理错误输入
+            if (null == stuToRemove) {
+                System.out.print("没有对应此ID的学生！\n重新输入要删除的学生ID：");
+                continue;
+            }
+            studentsMap.remove(stuIDToRemove);
+            System.out.println("ID为" + stuIDToRemove + "的学生已删除！");
+            break;
+        }
+    }
+
+    public void modifyStudent() {
+        //Scanner用于输入要修改的学生id
+        Scanner consoleInput = new Scanner(System.in);
+
+        String stuIDToModify;
+        Student stuToModify;
+        System.out.print("输入要修改的学生ID：");
+        while (true) {
+            stuIDToModify = consoleInput.next();
+            stuToModify = studentsMap.get(stuIDToModify);
+
+            //处理错误输入
+            if (null == stuToModify) {
+                System.out.print("没有对应此ID的学生！\n重新输入要删除的学生ID：");
+                continue;
+            }
+            System.out.println("此学生的姓名为：" + stuToModify.getStuName());
+
+            System.out.print("输入新的学生姓名：");
+            String newStuName = consoleInput.next();
+            studentsMap.put(stuIDToModify, new Student(stuIDToModify, newStuName));
+            break;
         }
     }
 }

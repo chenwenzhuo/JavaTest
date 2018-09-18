@@ -30,5 +30,8 @@ public class Main {
         AllStudents allStudents = new AllStudents();
         allStudents.addStudents();
         allStudents.seeAllStudents();
+//        allStudents.removeStudent();
+        allStudents.modifyStudent();
+        allStudents.seeAllStuByEntry();
     }
 }
