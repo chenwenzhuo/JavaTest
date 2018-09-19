@@ -3,10 +3,10 @@ package com.heythere.collection;
 import java.util.*;
 
 public class Student {
-    private String stuId;
-    private String stuName;
-    private Set<Course> coursesOfStu;
-    private Scanner consoleInput;
+    private String stuId;//学生学号
+    private String stuName;//学生姓名
+    private Set<Course> coursesOfStu;//学生所选的课程
+    private Scanner consoleInput;//用于从控制台读入数据
 
     public Student() {
         this.stuId = "";

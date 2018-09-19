@@ -2,9 +2,9 @@ package com.heythere.collection;
 
 import java.util.Objects;
 
-public class Course {
-    private String courseId;
-    private String courseName;
+public class Course implements Comparable<Course>{
+    private String courseId;//课程编号
+    private String courseName;//课程名称
 
     public Course() {
         this.courseId = "";
@@ -62,5 +62,10 @@ public class Course {
     @Override
     public int hashCode() {
         return Objects.hash(courseName);
+    }
+
+    @Override
+    public int compareTo(Course c) {
+        return this.courseId.compareTo(c.getCourseId());
     }
 }

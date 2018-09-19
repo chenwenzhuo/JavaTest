@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ee3b6fd-2b78-4bbb-ad4a-d223382429ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AttackDotCom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AttackDotCom/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelectCourses_Collection_Map_Demo/com/heythere/collection/CourseToSelect.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/heythere/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/heythere/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/collection/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +20,13 @@
     <session id="-1999017241">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,12 +41,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5176" />
+          <entry key="java" value="5465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5176" />
+          <entry key="JAVA" value="5465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -59,13 +57,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+            <state relative-caret-position="345">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,13 +74,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+            <state relative-caret-position="1426">
+              <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
               <folding>
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#1381#1382#0" expanded="true" />
                 <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,20 +89,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="1196">
+              <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
-                <element signature="method#addCourse#0;class#CourseToSelect#0" />
-                <element signature="method#seeAllCourses#0;class#CourseToSelect#0" />
-                <element signature="method#seeAllCoursesByIterator#0;class#CourseToSelect#0" />
-                <element signature="method#removeCourse#0;class#CourseToSelect#0" />
-                <element signature="method#removeCourseByIndex#0;class#CourseToSelect#0" />
-                <element signature="method#removeCoursesInList#0;class#CourseToSelect#0" />
-                <element signature="e#4337#4338#0" expanded="true" />
-                <element signature="e#4391#4392#0" expanded="true" />
+                <element signature="method#seeAllCourses#0;class#CoursesToSelect#0" />
+                <element signature="method#seeAllCoursesByIterator#0;class#CoursesToSelect#0" />
+                <element signature="method#modifyCourse#0;class#CoursesToSelect#0" />
+                <element signature="method#removeCourse#0;class#CoursesToSelect#0" />
+                <element signature="method#removeCourseByIndex#0;class#CoursesToSelect#0" />
+                <element signature="method#removeCoursesInList#0;class#CoursesToSelect#0" />
                 <element signature="method#containsCourse#1;class#CoursesToSelect#0" />
-                <element signature="e#4297#4298#0" expanded="true" />
-                <element signature="e#4327#4328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,24 +107,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="184">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding>
                 <element signature="method#selectCourses#0;class#Student#0" />
                 <element signature="method#seeAllSelectedCourses#0;class#Student#0" />
-                <element signature="e#1779#1780#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
-                <element signature="e#2721#2722#0" expanded="true" />
-                <element signature="e#2765#2766#0" expanded="true" />
+                <element signature="e#2729#2730#0" expanded="true" />
+                <element signature="e#2773#2774#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/heythere/map/AllStudents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="736">
               <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,7 +133,7 @@
                 <element signature="method#removeStudent#0;class#AllStudents#0" />
                 <element signature="method#modifyStudent#0;class#AllStudents#0" />
                 <element signature="e#3051#3052#0" expanded="true" />
-                <element signature="e#3084#3085#0" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +148,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>高等数学</find>
+      <find>数据结构</find>
+      <find>编译原理</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Advanced Mathematics</replace>
+      <replace>College English</replace>
+      <replace>Data Structure</replace>
+      <replace>Computer Network</replace>
+      <replace>Database</replace>
+      <replace>Discrete Mathematics</replace>
+      <replace>Operating System</replace>
+      <replace>Compilation</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -161,10 +172,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/heythere/collection/CourseToSelect.java" />
-        <option value="$PROJECT_DIR$/src/com/heythere/collection/Course.java" />
-        <option value="$PROJECT_DIR$/src/com/heythere/collection/Student.java" />
-        <option value="$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/map/AllStudents.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/collection/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/collection/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/Main.java" />
       </list>
     </option>
@@ -177,7 +188,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1196" />
+    <option name="width" value="1205" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -188,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,15 +238,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537254814430" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537332471368" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,18 +286,20 @@
       <updated>1537088282891</updated>
       <workItem from="1537088286517" duration="8133000" />
       <workItem from="1537191578265" duration="6628000" />
-      <workItem from="1537238375255" duration="9999000" />
+      <workItem from="1537238375255" duration="10238000" />
+      <workItem from="1537324425129" duration="707000" />
+      <workItem from="1537329850016" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24760000" />
+    <option name="totallyTimeSpent" value="27759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1196" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1205" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1930131" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,55 +338,61 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="184">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="method#selectCourses#0;class#Student#0" />
             <element signature="method#seeAllSelectedCourses#0;class#Student#0" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#2721#2722#0" expanded="true" />
-            <element signature="e#2765#2766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="method#addCourse#0;class#CourseToSelect#0" />
-            <element signature="method#seeAllCourses#0;class#CourseToSelect#0" />
-            <element signature="method#seeAllCoursesByIterator#0;class#CourseToSelect#0" />
-            <element signature="method#removeCourse#0;class#CourseToSelect#0" />
-            <element signature="method#removeCourseByIndex#0;class#CourseToSelect#0" />
-            <element signature="method#removeCoursesInList#0;class#CourseToSelect#0" />
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-            <element signature="method#containsCourse#1;class#CoursesToSelect#0" />
-            <element signature="e#4297#4298#0" expanded="true" />
-            <element signature="e#4327#4328#0" expanded="true" />
+            <element signature="e#2729#2730#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="1426">
+          <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
           <folding>
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
             <element signature="e#1381#1382#0" expanded="true" />
             <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/collection/CoursesToSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="method#seeAllCourses#0;class#CoursesToSelect#0" />
+            <element signature="method#seeAllCoursesByIterator#0;class#CoursesToSelect#0" />
+            <element signature="method#modifyCourse#0;class#CoursesToSelect#0" />
+            <element signature="method#removeCourse#0;class#CoursesToSelect#0" />
+            <element signature="method#removeCourseByIndex#0;class#CoursesToSelect#0" />
+            <element signature="method#removeCoursesInList#0;class#CoursesToSelect#0" />
+            <element signature="method#containsCourse#1;class#CoursesToSelect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/heythere/map/AllStudents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
+        <state relative-caret-position="736">
           <caret line="107" column="53" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -384,17 +403,7 @@
             <element signature="method#removeStudent#0;class#AllStudents#0" />
             <element signature="method#modifyStudent#0;class#AllStudents#0" />
             <element signature="e#3051#3052#0" expanded="true" />
-            <element signature="e#3084#3085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
           </folding>
         </state>
       </provider>

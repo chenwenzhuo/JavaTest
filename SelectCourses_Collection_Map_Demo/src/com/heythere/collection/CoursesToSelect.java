@@ -15,19 +15,19 @@ public class CoursesToSelect {
 
     public void addCourse() {
         //向课程列表中添加一门课程
-        Course course1 = new Course("1", "高等数学");
+        Course course1 = new Course("1", "Advanced Mathematics");
         courses.add(course1);
         Course cTemp1 = courses.get(0);
         System.out.println("添加了一门课程：" + cTemp1.getCourseId() + "，" + cTemp1.getCourseName() + "\n");
 
         //向课程列表指定位置添加课程
-        Course course2 = new Course("2", "大学英语");
+        Course course2 = new Course("2", "College English");
         courses.add(0, course2);
         Course cTemp2 = courses.get(0);
         System.out.println("添加了一门课程：" + cTemp2.getCourseId() + "，" + cTemp2.getCourseName() + "\n");
 
         //向指定位置（超出列表长度）添加课程
-        Course course3 = new Course("3", "数据结构");
+        Course course3 = new Course("3", "Data Structure");
         //将会引发异常，对异常进行捕捉并处理
         try {
             courses.add(5, course3);
@@ -39,8 +39,8 @@ public class CoursesToSelect {
         }
 
         //同时向列表中添加两门课程
-        Course[] twoCourses = {new Course("4", "计算机网络"),
-                new Course("5", "数据库")};
+        Course[] twoCourses = {new Course("4", "Computer Network"),
+                new Course("5", "Database")};
         courses.addAll(Arrays.asList(twoCourses));
         Course cTemp3 = courses.get(3);
         Course cTemp4 = courses.get(4);
@@ -48,9 +48,9 @@ public class CoursesToSelect {
                 + cTemp4.getCourseId() + "，" + cTemp4.getCourseName() + "\n");
 
         //向列表中指定位置同时添加三门课程
-        Course[] threeCourses = {new Course("6", "离散数学"),
-                new Course("7", "操作系统"),
-                new Course("8", "编译原理")};
+        Course[] threeCourses = {new Course("6", "Discrete Mathematics"),
+                new Course("7", "Operating System"),
+                new Course("8", "Compilation")};
         courses.addAll(3, Arrays.asList(threeCourses));
         Course cTemp5 = courses.get(3);
         Course cTemp6 = courses.get(4);
