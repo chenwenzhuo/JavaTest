@@ -2,10 +2,7 @@ package com.heythere.Player;
 
 import com.heythere.Poker.Poker;
 
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Player {
     private int playerID;//玩家ID
@@ -17,6 +14,7 @@ public class Player {
         this.consoleInput = new Scanner(System.in);
         //输入玩家ID和姓名
         this.playerID = enterIDFromConsole();
+        System.out.println("输入玩家姓名：");
         this.playerName = consoleInput.next();
         //初始化手牌List
         pokersInHand = new ArrayList<>();
@@ -47,6 +45,22 @@ public class Player {
 
     public void playerGetPoker(Poker poker) {
         pokersInHand.add(poker);
+    }
+
+    public Poker biggestPokerInHand() {
+        Poker biggestPoker = null;
+        for (Poker nextPoker : pokersInHand) {
+            if (null == biggestPoker || nextPoker.compareTo(biggestPoker) > 0) {
+                biggestPoker = nextPoker;
+            }
+        }
+        return biggestPoker;
+    }
+
+    public void showPokersInHand() {
+        for (Poker p : pokersInHand) {
+            System.out.println(p.getPokerSuit() + "：" + p.getPokerPointAsStr());
+        }
     }
 
     public int getPlayerID() {
