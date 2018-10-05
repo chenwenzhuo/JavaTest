@@ -1,4 +1,6 @@
-package com.heythere;
+package com.heythere.FileTest;
+
+import com.heythere.FileTest.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

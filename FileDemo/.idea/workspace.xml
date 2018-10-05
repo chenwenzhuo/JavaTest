@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545dcabc-a197-4178-bbad-5731801a2feb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/raf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/RandomAccessFileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/RandomAccessFileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/RandomAccessFileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/RandomAccessFileDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,32 +23,34 @@
     <session id="886301336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1548" />
+          <entry key="java" value="1969" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1548" />
+          <entry key="JAVA" value="1969" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dat" value="3" />
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -56,35 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/heythere/FileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-518">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="575">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/com/heythere/Main.java" />
         <option value="$PROJECT_DIR$/Demo/raf.txt" />
         <option value="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/FileTest/RandomAccessFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/StaticTest.java" />
       </list>
     </option>
   </component>
@@ -122,9 +107,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="400" />
-    <option name="y" value="81" />
+    <option name="y" value="80" />
     <option name="width" value="1150" />
-    <option name="height" value="927" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,6 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +143,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537968446969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538727050967" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -178,9 +163,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessFileDemo">
+  <component name="RunManager" selected="Application.StaticTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.heythere.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.heythere.FileTest.Main" />
       <module name="FileDemo" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -190,7 +175,20 @@
       </method>
     </configuration>
     <configuration name="RandomAccessFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heythere.RandomAccessFileDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.heythere.FileTest.RandomAccessFileDemo" />
+      <module name="FileDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heythere.FileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.StaticTest" />
       <module name="FileDemo" />
       <extension name="coverage">
         <pattern>
@@ -205,9 +203,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RandomAccessFileDemo" />
+      <item itemvalue="Application.StaticTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest" />
         <item itemvalue="Application.RandomAccessFileDemo" />
         <item itemvalue="Application.Main" />
       </list>
@@ -225,17 +225,19 @@
       <updated>1537865092832</updated>
       <workItem from="1537865094168" duration="4214000" />
       <workItem from="1537962298608" duration="5166000" />
+      <workItem from="1538019880155" duration="690000" />
+      <workItem from="1538725992557" duration="989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9380000" />
+    <option name="totallyTimeSpent" value="11059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12868632" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,26 +275,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Demo/raf.dat" />
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/raf.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -300,10 +282,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/FileTest/RandomAccessFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/FileTest/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/FileTest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
