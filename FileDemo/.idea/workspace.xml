@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545dcabc-a197-4178-bbad-5731801a2feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileFive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileFour.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileThree.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileTwo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objSerial.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objSerial_1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO_ByteStream/DataInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO_ByteStream/DataOutputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO_ByteStream/IOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO_ByteStream/IOUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/IO_CharStream/ISReaderAndOSWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爱情转移.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爱情转移copy_1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爱情转移copy_2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/RandomAccessFileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/heythere/FileTest/RandomAccessFileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileOne.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fileOne.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/IO/IOUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FileDemo/com/heythere/StaticTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,35 +37,42 @@
     <session id="886301336">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1969" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="5961" />
+          <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1969" />
+          <entry key="JAVA" value="5961" />
+          <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="dat" value="3" />
-          <entry key="java" value="4" />
-          <entry key="txt" value="15" />
+          <entry key="dat" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="11" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -62,13 +83,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_CharStream/ISReaderAndOSWriterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="161">
+              <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+              <folding>
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +159,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bytes</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -94,8 +175,19 @@
         <option value="$PROJECT_DIR$/Demo/raf.txt" />
         <option value="$PROJECT_DIR$/src/com/heythere/RandomAccessFileDemo.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/FileTest/RandomAccessFileDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" />
         <option value="$PROJECT_DIR$/src/com/heythere/StaticTest.java" />
+        <option value="$PROJECT_DIR$/fileOne.txt" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO/DataOutputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO/IOUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO/DataInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IOByteStream/DataInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO_ByteStream/DataInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/IO_CharStream/ISReaderAndOSWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_1.java" />
+        <option value="$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_2.java" />
       </list>
     </option>
   </component>
@@ -105,11 +197,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="400" />
-    <option name="y" value="80" />
-    <option name="width" value="1150" />
-    <option name="height" value="928" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1220" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,8 +210,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +230,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="heythere" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FileDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="heythere" type="462c0819:PsiDirectoryNode" />
+              <item name="FileTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FileDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="heythere" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectSerialize" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538727050967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539429067044" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -163,23 +268,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.heythere.FileTest.Main" />
-      <module name="FileDemo" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomAccessFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heythere.FileTest.RandomAccessFileDemo" />
+  <component name="RunManager" selected="Application.ObjectSerializeDemo_2">
+    <configuration name="DataInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.IO_ByteStream.DataInputStreamDemo" />
       <module name="FileDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heythere.FileTest.*" />
+          <option name="PATTERN" value="com.heythere.IO_ByteStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +282,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heythere.StaticTest" />
+    <configuration name="IOUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.IO_ByteStream.IOUtilTest" />
       <module name="FileDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heythere.*" />
+          <option name="PATTERN" value="com.heythere.IO_ByteStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ISReaderAndOSWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.IO_CharStream.ISReaderAndOSWriterDemo" />
+      <module name="FileDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heythere.IO_CharStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectSerializeDemo_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.ObjectSerialize.ObjectSerializeDemo_1" />
+      <module name="FileDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heythere.ObjectSerialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectSerializeDemo_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heythere.ObjectSerialize.ObjectSerializeDemo_2" />
+      <module name="FileDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heythere.ObjectSerialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,15 +335,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.RandomAccessFileDemo" />
-      <item itemvalue="Application.StaticTest" />
+      <item itemvalue="Application.IOUtilTest" />
+      <item itemvalue="Application.DataInputStreamDemo" />
+      <item itemvalue="Application.ISReaderAndOSWriterDemo" />
+      <item itemvalue="Application.ObjectSerializeDemo_1" />
+      <item itemvalue="Application.ObjectSerializeDemo_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticTest" />
-        <item itemvalue="Application.RandomAccessFileDemo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ObjectSerializeDemo_2" />
+        <item itemvalue="Application.ObjectSerializeDemo_1" />
+        <item itemvalue="Application.ISReaderAndOSWriterDemo" />
+        <item itemvalue="Application.DataInputStreamDemo" />
+        <item itemvalue="Application.IOUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,17 +365,19 @@
       <workItem from="1537962298608" duration="5166000" />
       <workItem from="1538019880155" duration="690000" />
       <workItem from="1538725992557" duration="989000" />
+      <workItem from="1539400515296" duration="5915000" />
+      <workItem from="1539417612347" duration="11012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11059000" />
+    <option name="totallyTimeSpent" value="27986000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="0" width="1220" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1313673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16034482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -245,8 +385,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2822695" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32785088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,23 +446,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/StaticTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/StaticTest.java" />
+    <entry file="file://$PROJECT_DIR$/FileDemo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTwo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileFive.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_ByteStream/IOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO/IOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_ByteStream/IOUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="402">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_ByteStream/DataOutputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_ByteStream/DataInputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileOne.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/IO_CharStream/ISReaderAndOSWriterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objSerial.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/heythere/ObjectSerialize/ObjectSerializeDemo_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
           </folding>
         </state>
       </provider>
