@@ -1,4 +1,4 @@
-package com.heythere.SocketTest;
+package com.heythere.SocketTest_TCP;
 
 import java.io.BufferedReader;
 import java.io.IOException;

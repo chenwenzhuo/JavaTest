@@ -1,4 +1,4 @@
-package com.heythere.SocketTest;
+package com.heythere.SocketTest_TCP;
 
 import java.io.*;
 import java.net.Socket;

@@ -1,13 +1,9 @@
-package com.heythere.SocketTest;
+package com.heythere.SocketTest_TCP;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.HashMap;
 
 /**
  * 基于TCP协议的Socket通信，实现用户登录
