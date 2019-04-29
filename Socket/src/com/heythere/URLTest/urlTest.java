@@ -10,7 +10,7 @@ public class urlTest {
     public static void main(String[] args) {
         try {
             //获取URL对象
-            URL url_Super = new URL("https://www.google.com.hk");
+            URL url_Super = new URL("https://www.baidu.com");
             //通过已有的URL对象，获取子URL对象
             //?后面表示参数，#后面表示锚点
             URL url_son = new URL(url_Super, "file.html?username=Jack#test");
